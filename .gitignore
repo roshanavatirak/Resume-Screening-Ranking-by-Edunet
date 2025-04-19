@@ -1,0 +1,21 @@
+# Ignore environment and secret config files
+.env
+.streamlit/secrets.toml
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# VS Code and OS-related files
+.vscode/
+.DS_Store
+Thumbs.db
